@@ -38,21 +38,15 @@ export default function Home() {
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors"
-          >
+                Get Started as Rider
+                <ArrowRight className="w-5 h-5" />
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
 
         {/* Mobile Menu */}
-        {mobileMenuOpen && (
-          <div className="md:hidden border-t border-gray-200 bg-white">
-            <div className="px-4 py-4 space-y-4">
-              <a href="#features" className="block text-gray-600 hover:text-gray-900">
-                Features
+                Become an Owner
+                <ArrowRight className="w-5 h-5" />
               </a>
               <a href="#how-it-works" className="block text-gray-600 hover:text-gray-900">
                 How It Works
@@ -87,14 +81,22 @@ export default function Home() {
               href="/register?role=rider"
               className="px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
             >
+<<<<<<< HEAD
               Get Started as Rider
+=======
+              Start Riding
+>>>>>>> 0391e96 (SMS project)
               <ArrowRight className="w-5 h-5" />
             </Link>
             <Link
               href="/register?role=owner"
               className="px-8 py-4 border-2 border-blue-600 text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors flex items-center justify-center gap-2"
             >
+<<<<<<< HEAD
               Become an Owner
+=======
+              Start Earning
+>>>>>>> 0391e96 (SMS project)
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
