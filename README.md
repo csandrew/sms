@@ -2,6 +2,8 @@
 
 A modern vehicle sharing platform that enables users to rent electric scooters and bikes, while allowing vehicle owners to earn passive income by sharing their vehicles.
 
+https://smartmobilitys.vercel.app/
+
 ## Features
 
 ### For Riders
